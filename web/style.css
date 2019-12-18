@@ -1,0 +1,134 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: yellow;
+    width: 100%;
+    height: 75px;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    width: 437px;
+    padding: 20px 0 20px 10px;
+}
+
+header form {
+    float: right;
+    margin-right: 550px;
+    margin-top: 15px;
+}
+
+header div {
+    float: right;
+    margin-top: -67px;
+    padding-right: 58px;
+}
+
+.box {
+    padding: 5px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    padding-right: 65px;
+}
+
+.mail {
+    width: 40px;
+    height: 40px;
+    padding-right: 65px;
+}
+
+.telephone {
+    width: 40px;
+}
+
+main {
+    padding: 20px;
+    background-image: url("/home/spielberg/Documents/Hacktiv-8/Phase-0/1.HTML/day3/anchor-day3/dark_brick_wall/dark_brick_wall/dark_brick_wall.png");
+    background-repeat: repeat;
+}
+
+.rossi,
+.marc,
+.pedrosa,
+.guntoli,
+.nolan {
+    position: relative;
+    height: 538px;
+    width: 90%;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+
+.agv {
+    width: 408px;
+    height: auto;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+
+.shoei {
+    width: 617px;
+    height: auto;
+    margin-left: 500px;
+    right: 367px;
+    top: 802px;
+}
+
+.arai {
+    width: 800px;
+    height: auto;
+    margin-left: 500px;
+    left: -229px;
+    top: 1090px;
+}
+
+.shark {
+    width: 750px;
+    height: auto;
+    margin-left: 500px;
+    left: -202px;
+    top: 1941px;
+}
+
+.nolan2 {
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
+    left: 0;
+    top: 2395px;
+}
+
+main img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+.rossi:hover,
+.marc:hover,
+.pedrosa:hover,
+.guntoli:hover,
+.nolan:hover {
+    opacity: 0;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 9px;
+}
+
+footer h3 {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
